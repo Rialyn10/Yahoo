@@ -1,0 +1,143 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+          }
+          
+          body {	
+              min-height:100vh;
+              font-family: "NoirRegular";
+              background-size: cover;
+          background-image: url(k.webp);
+            background-size:cover;
+            font-family: "NoirRegular"; 
+          }
+          
+          @font-face{
+            font-family: "Montserrat";
+            src:url("Montserrat-VariableFont_wght.ttf.ttf");
+          }
+          
+          @font-face{
+            font-family: "NoirBold";
+            src:url("NoirPro-Bold.ttf");
+          }
+          
+          @font-face{
+            font-family: "Odachi";
+            src:url("Odachi 400.otf");
+          }
+          
+          .top {
+            display: flex;
+            background-color: #6934ad;
+            height:60px;
+            width: 760px;
+            padding: 10px;
+          }
+           
+            .top h2 {
+            color:white;
+            font-family: "Odachi";
+            font-size:15px;   
+          }
+          
+          .top-bar {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            flex: 1;
+            background-color: #6934ad;
+          }
+          
+          .top-items a {
+          
+            margin-left:10px;
+            font-size: 20px;
+            text-decoration: none;
+            color: #ccfff2;
+            padding: 0px 30px; 
+          }
+          
+          .top-items a:hover {
+              border:1px solid ;
+              border-radius:10px;
+          }
+          
+          .yahoobox{
+          width: 760px;
+          height: 760px; 
+          text-align: justify;
+          margin: 1% auto 0;
+          font-size: 16px;
+          border:1px opaque;  
+          float:center;
+              background:rgba(0,0,0,0.1);
+              border-radius:10px;
+          }
+          
+          .yahoobox input{
+          height:30px;
+          width:300px;    
+          }
+        
+          .click input{
+            justify-content:center;
+            align-items:center;
+          background-color:#7854a7;
+            width:300px;
+            height:40px;
+            text-align:center;
+            border:0px;
+            color:white;
+            border-radius:5px;
+            font-size: 18px;
+            font-family: "Montserrat";
+          }
+          
+          .check label {
+            color: #494b55;
+            float: center;
+          }
+          
+          .check input {
+            width: 15px;
+            height: 15px;
+            float: center;
+            vertical-align: bottom;
+            top: -1px;
+            margin-left: 32%;
+          }
+          
+          .name{
+                  color: #111216;
+                  font-size:15px;
+                  font-weight:80;
+                  text-align:center;
+                  float:center;
+          }
+          
+          .forgot{
+            color: #3f57cf;
+            padding-right:230px;
+            float: right;
+          }
+          
+          .id, .Lang{
+            font-size:15px;
+                  font-weight:40;
+                  text-align:center;
+                  float:center;
+          }
+          
+          .i{
+            font-size:15px;
+                  font-weight:40;
+                  text-align: center;
+                  float: center;
+          }
+
+          .q{
+            color: #3f57cf;
+          }
